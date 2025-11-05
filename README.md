@@ -7,7 +7,7 @@ TaxiApp is an integrated system, similar to Uber, designed to connect drivers an
 The app provides a user-friendly interface that allows passengers to request rides and enables drivers to track requests and their precise location.
 
 # Key Features
-# For Passengers:
+### For Passengers:
 
 Create an account and log in.
 
@@ -32,7 +32,7 @@ Automatically calculate distance, time, and cost.
 Communicate with passengers through the system.
 
 ## Technical Aspects
-## Front End (Android App)
+### Front End (Android App)
 
 Language: Java
 
@@ -50,9 +50,9 @@ Using WebSocket or API Gateway to communicate with the server in real time.
 
 Storing data locally using SharedPreferences.
 
-## Back End
+### Back End
 
-Technologies:
+#### Technologies:
 
 AWS Lambda for serverless request processing.
 
@@ -60,17 +60,8 @@ API Gateway as the application interface.
 
 DynamoDB for storing user, trip, and location data.
 
-Functions:
 
-Managing passenger and driver requests.
-
-Saving real-time location data.
-
-Calculating fares and distances.
-
-Providing secure and integrated APIs for the application.
-
-## System Flow
+### System Flow
 
 A passenger requests a ride through the app.
 
@@ -82,7 +73,7 @@ Upon acceptance, the system begins sending the driver's location every 3 seconds
 
 After the trip ends, the fare is calculated and the data is sent to the server for storage and later display.
 
-## Tools Used
+### Tools Used
 
 Android Studio
 
@@ -99,3 +90,4 @@ WebSocket
 JSON
 
 SharedPreferences
+
